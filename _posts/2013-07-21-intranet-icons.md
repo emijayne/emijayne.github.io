@@ -3,6 +3,7 @@ title: Intranet Icons
 author: emijayne
 layout: post
 permalink: /intranet-icons/
+image: intranet-icons.png
 post_views_count:
   - 192
 categories:
@@ -10,6 +11,8 @@ categories:
 tags:
   - graphics projects
 ---
-Now rendered somewhat obsolete because of CSS3, I created these icons for an Employee Portal for Hamon.
+**Purpose:**
+Now rendered obsolete because of CSS3, I created these icons for an Employee Portal.
 
-Created in Adobe Fireworks CS5.
+**Program:**
+Adobe Fireworks CS5.

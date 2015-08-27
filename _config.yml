@@ -1,8 +1,8 @@
 # Site settings
-title: emijayne | just a snippet
+title: emijayne
 email: emijayne@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  emily is a web developer and production professional who loves learning new things
+  a partial portfolio of emily's web development and production graphics
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://emijayne.com" # the base hostname & protocol for your site
 twitter_username: emijayne
@@ -11,3 +11,7 @@ drupal_username: emijayne
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+sass:
+    sass_dir: _sass

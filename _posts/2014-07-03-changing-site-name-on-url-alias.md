@@ -23,7 +23,7 @@ I set up a Drupal site with [Context][1] so that it would change the logo depend
 
 Well, the aforementioned logo was actually just a stylized site name &emdash; not the most accessible, and certainly not the most smaller-device-friendly. So, in trying to make this a bit better for the web, I worked out this preprocess function that I thought I'd share with the you all:
 
-{% highlight php %}
+{% highlight %}
 function YOURTHEME_preprocess_page(&$variables, $hook) {
   if (theme_get_setting('toggle_name')) {
     $path = drupal_get_path_alias();
@@ -36,7 +36,7 @@ function YOURTHEME_preprocess_page(&$variables, $hook) {
     }
   }
 }
-{% end highlight %}
+{% endhighlight %}
 
 Basically, this first checks to make sure the Site Name is desired (checked off) in the theme. It then grabs the alias and checks it against the pattern I gave it inside of `drupal_match_path`. If it matches a pattern, then it changes the `site_name` accordingly... if not, it stays the Site Name that is set in the theme.
 

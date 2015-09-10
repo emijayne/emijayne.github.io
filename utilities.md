@@ -3,7 +3,7 @@ layout: page
 title: Favourite Utilities
 permalink: /utilities/
 ---
-In theory this will be filled with all the nifty utilities that I love.. but for now, just the one:
+In theory this will be filled with all the nifty utilities that I love.. but for now
 
 ## Bulk Rename Utility
 

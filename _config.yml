@@ -11,4 +11,3 @@ drupal_username: emijayne
 
 # Build settings
 markdown: kramdown
-highlighter: rouge

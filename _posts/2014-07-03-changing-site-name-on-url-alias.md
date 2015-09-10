@@ -36,7 +36,7 @@ function YOURTHEME_preprocess_page(&$variables, $hook) {
     }
   }
 }
-{% endhighlight %}
+{% end highlight %}
 
 Basically, this first checks to make sure the Site Name is desired (checked off) in the theme. It then grabs the alias and checks it against the pattern I gave it inside of `drupal_match_path`. If it matches a pattern, then it changes the `site_name` accordingly... if not, it stays the Site Name that is set in the theme.
 

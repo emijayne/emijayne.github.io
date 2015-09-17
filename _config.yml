@@ -11,7 +11,7 @@ drupal_username: emijayne
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 permalink: pretty
 sass:
     sass_dir: _sass

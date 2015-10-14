@@ -10,8 +10,5 @@ github_username: emijayne
 drupal_username: emijayne
 
 # Build settings
-markdown: kramdown
-highlighter: pygments
-permalink: pretty
 sass:
     sass_dir: _sass

@@ -4,18 +4,36 @@ layout: default
 
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Hello there...</h1>
-  </header>
-
   <article class="post-content">
-	Hi there! Welcome to my little corner of the world. This site is primarily about my professional and creative side.. so it is a bit of a mix code and crochet.
+	<p><span class="post-title">Hello there...</span> and welcome to my little corner of the world. This site is primarily about my professional and creative side.. so it is a bit of a mix code and crochet.</p>
 
-	I am a wife and mom of four boys and two dogs. We live in the middle of farm country, in a cute little town on the Jersey side of the Delaware River.
+	<p>I am a wife and mom of four boys and two dogs. We live in the middle of farm country, in a cute little town on the Jersey side of the Delaware River.</p>
 
-	I love all things where art and science intersect: baking, crocheting, programming, gardening, puzzles.. and reverse engineering anything I find interesting. My simple pleasure, though, is reading... anything from biographies and Biblical tomes to science-fiction and fantasy novels.
+	<p>I love all things where art and science intersect: baking, crocheting, programming, gardening, puzzles.. and reverse engineering anything I find interesting. My simple pleasure, though, is reading... anything from biographies and Biblical tomes to science-fiction and fantasy novels.</p>
 
-	Feel free to contact me any time - see various mediums below. 
+	<p>Feel free to contact me any time - see various mediums below.</p>
   </article>
+
+</div>
+<hr />
+<div class="home">
+
+  <h1 class="page-heading">Projects</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe 
+	<a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a>
+  </p>
 
 </div>

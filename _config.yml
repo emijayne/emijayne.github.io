@@ -2,7 +2,7 @@
 title: emijayne
 email: emijayne@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  a partial portfolio of emily's web development and production graphics
+  a partial portfolio of web development and production graphics by emily uderman
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://emijayne.com" # the base hostname & protocol for your site
 twitter_username: emijayne

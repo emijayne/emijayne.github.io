@@ -5,29 +5,25 @@ layout: default
 <div class="post">
 
   <article class="post-content">
-	<p><span class="post-title">Hello there...</span> and welcome to my little corner of the world. This site is primarily about my professional and creative side.. so it is a bit of a mix code and crochet.</p>
+	<p>Hello there! Welcome to my little corner of the world. This site is primarily about my professional and creative side.. so it is a bit of a mix code and crochet.</p>
 
-	<p>I am a wife and mom of four boys and two dogs. We live in the middle of farm country, in a cute little town on the Jersey side of the Delaware River.</p>
+	<p>Currently, I am working as a Programmer/Developer/Database Analyst/Production Artist at the moment. I really love making systems for my end users more efficient, easy and beautiful. Because of this, I am constantly learning new technologies, languages and techniques.</p>
 
-	<p>I love all things where art and science intersect: baking, crocheting, programming, gardening, puzzles.. and reverse engineering anything I find interesting. My simple pleasure, though, is reading... anything from biographies and Biblical tomes to science-fiction and fantasy novels.</p>
+	<p>Personally, I am a wife and mom of four boys and two dogs. We live in the middle of farm country, in a cute little town on the Jersey side of the Delaware River.</p>
 
-	<p>Feel free to contact me any time - see various mediums below.</p>
-  </article>
+	<p>My interests and passions lie where art and science intersect: baking, crocheting, programming, gardening, puzzles.. and reverse engineering anything I find interesting. My simple pleasure, though, is reading... anything from biographies and Biblical tomes to science-fiction and fantasy novels.</p>
+
+	</article>
 
 </div>
-<hr />
 <div class="home">
 
   <h1 class="page-heading">Projects</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+      <li class="project-list">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> &laquo; <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       </li>
     {% endfor %}
   </ul>

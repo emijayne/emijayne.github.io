@@ -7,6 +7,8 @@ post_views_count:
   - 305
 categories:
   - creativity
+image:	../img/hat.jpg
+thumb:	../img/hat-150x150.jpg
 ---
 This was a super fun project I made for a friend I am planning on making one for myself as well&#8230; Well&#8230; Someday.
 
